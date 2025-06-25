@@ -14,7 +14,8 @@ jobs:
     name: Contracts
     uses: TerraDharitri/drt-sc-actions/.github/workflows/contracts.yml@v0.1.1
     with:
-      rust-toolchain: nightly-2024-06-01 
+      rust-toolchain: nightly-2025-06-24  
       vmtools-version: v1.4.60
     secrets:
       token: ${{ secrets.GITHUB_TOKEN }}
+
