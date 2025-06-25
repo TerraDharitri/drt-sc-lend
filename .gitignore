@@ -15,3 +15,5 @@ Cargo.lock
 
 **/*.rs.bk
 .vscode
+config.bat
+node_modules
