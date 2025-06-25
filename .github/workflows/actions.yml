@@ -5,7 +5,7 @@ on:
     branches:
       - main
   pull_request:
-      branches: [ main ]
+    branches: [ main ]
 
 permissions: write-all
 
@@ -14,7 +14,7 @@ jobs:
     name: Contracts
     uses: TerraDharitri/drt-sc-actions/.github/workflows/contracts.yml@v0.1.1
     with:
-      rust-toolchain: nightly-2023-04-24
+      rust-toolchain: nightly-2024-06-01 
       vmtools-version: v1.4.60
     secrets:
       token: ${{ secrets.GITHUB_TOKEN }}
